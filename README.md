@@ -1,78 +1,46 @@
-# Godot Engine
+<h1 align="center">
+  <a href="https://wedot.top"><img width="400" src="logo/wedot-logo2_text-transparent.svg" alt="WeDot Engine Logo" /></a>
+</h1>
 
 <p align="center">
-  <a href="https://godotengine.org">
-    <img src="logo_outlined.svg" width="400" alt="Godot Engine logo">
-  </a>
+    <a href="https://github.com/Wedot-Engine/WeDot"><img alt="Github repo" src="https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2FPJ-568%2Fqmole-source-site&up_color=007bff&up_message=Wedot-Engine/WeDot&logo=github&label=Github" loading="lazy"></a>
+    <a href="https://github.com/Wedot-Engine/WeDot/blob/main/LICENSE.txt"><img alt="GitHub License" src="https://img.shields.io/github/license/Wedot-Engine/WeDot?logo=github&color=e48c5c" loading="lazy"></a>
+    <a href="https://gitee.com/Wedot-Engine/WeDot"><img alt="Gitee repo" src="https://img.shields.io/website?url=https%3A%2F%2Fgitee.com%2FPJ-568%2Fqmole-source-site&up_color=007bff&up_message=Wedot-Engine/WeDot&logo=gitee&label=Gitee" loading="lazy"></a>
 </p>
 
-## 2D and 3D cross-platform game engine
+> 🌏 简体中文 | [English](./README_EN.md)
 
-**[Godot Engine](https://godotengine.org) is a feature-packed, cross-platform
-game engine to create 2D and 3D games from a unified interface.** It provides a
-comprehensive set of [common tools](https://godotengine.org/features), so that
-users can focus on making games without having to reinvent the wheel. Games can
-be exported with one click to a number of platforms, including the major desktop
-platforms (Linux, macOS, Windows), mobile platforms (Android, iOS), as well as
-Web-based platforms and [consoles](https://docs.godotengine.org/en/latest/tutorials/platform/consoles.html).
+WeDot 是一个专注于技术和用户体验的多平台 2D 与 3D 游戏引擎，开发者可以把注意力集中在游戏开发本身，而非繁杂的技术细节。
 
-## Free, open source and community-driven
+> ## 我们承诺
+> **无政治元素**：WeDot 致力于纯粹的游戏开发。让游戏引擎回归游戏的本质。
+>
+> **开源与透明**：我们坚持开源精神，所有开发进展和决策过程都将公开透明。
+>
+> **社区驱动**：我们重视社区的反馈和贡献，鼓励开发者参与引擎的改进和发展。
 
-Godot is completely free and open source under the very permissive [MIT license](https://godotengine.org/license).
-No strings attached, no royalties, nothing. The users' games are theirs, down
-to the last line of engine code. Godot's development is fully independent and
-community-driven, empowering users to help shape their engine to match their
-expectations. It is supported by the [Godot Foundation](https://godot.foundation/)
-not-for-profit.
+## 开始使用
 
-Before being open sourced in [February 2014](https://github.com/godotengine/godot/commit/0b806ee0fc9097fa7bda7ac0109191c9c5e0a1ac),
-Godot had been developed by [Juan Linietsky](https://github.com/reduz) and
-[Ariel Manzur](https://github.com/punto-) (both still maintaining the project)
-for several years as an in-house engine, used to publish several work-for-hire
-titles.
+- [Wedot文档](https://docs.wedot.top/)
 
-![Screenshot of a 3D scene in the Godot Engine editor](https://raw.githubusercontent.com/godotengine/godot-design/master/screenshots/editor_tps_demo_1920x1080.jpg)
+## 当前计划
 
-## Getting the engine
+1. 集成新的 3D 物理引擎 [Jolt.](https://github.com/jrouwe/JoltPhysics)
+2. 添加简单的后处理功能以增强渲染效果。
+3. 创建源代码教程，吸引更多人加入我们的社区。
+4. 优化性能，提高引擎在不同平台上的运行效率。
+5. 扩展文档，提供更详细的使用指南和技术支持。
+   
+## 如何维护
 
-### Binary downloads
+- [贡献指北](./CONTRIBUTING.md)
 
-Official binaries for the Godot editor and the export templates can be found
-[on the Godot website](https://godotengine.org/download).
+## 交流方式
 
-### Compiling from source
+- [网站](https://wedot.top)
+- [QQ 群](https://qm.qq.com/cgi-bin/qm/qr?authKey=G%2BR%2FKlLQBeH71b1Mhe4t2gM%2B8rLXndOEPhPtDgWgTudLUtGUgpMrNAWD87x%2F64ta&k=IPTGQ3zH_W8IAzaFrnLLGF2kplhv-EeM&noverify=0&group_code=670915303)
+- [Discord](https://discord.com/invite/MRssAz6Pe3)
 
-[See the official docs](https://docs.godotengine.org/en/latest/contributing/development/compiling)
-for compilation instructions for every supported platform.
+## 当前状态
 
-## Community and contributing
-
-Godot is not only an engine but an ever-growing community of users and engine
-developers. The main community channels are listed [on the homepage](https://godotengine.org/community).
-
-The best way to get in touch with the core engine developers is to join the
-[Godot Contributors Chat](https://chat.godotengine.org).
-
-To get started contributing to the project, see the [contributing guide](CONTRIBUTING.md).
-This document also includes guidelines for reporting bugs.
-
-## Documentation and demos
-
-The official documentation is hosted on [Read the Docs](https://docs.godotengine.org).
-It is maintained by the Godot community in its own [GitHub repository](https://github.com/godotengine/godot-docs).
-
-The [class reference](https://docs.godotengine.org/en/latest/classes/)
-is also accessible from the Godot editor.
-
-We also maintain official demos in their own [GitHub repository](https://github.com/godotengine/godot-demo-projects)
-as well as a list of [awesome Godot community resources](https://github.com/godotengine/awesome-godot).
-
-There are also a number of other
-[learning resources](https://docs.godotengine.org/en/latest/community/tutorials.html)
-provided by the community, such as text and video tutorials, demos, etc.
-Consult the [community channels](https://godotengine.org/community)
-for more information.
-
-[![Code Triagers Badge](https://www.codetriage.com/godotengine/godot/badges/users.svg)](https://www.codetriage.com/godotengine/godot)
-[![Translate on Weblate](https://hosted.weblate.org/widgets/godot-engine/-/godot/svg-badge.svg)](https://hosted.weblate.org/engage/godot-engine/?utm_source=widget)
-[![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/godotengine/godot)](https://www.tickgit.com/browse?repo=github.com/godotengine/godot)
+![Current](https://repobeats.axiom.co/api/embed/e8d7fcfa4529d0f4a1a8383ced8d3cd7d2f50099.svg "Repobeats analytics image")
