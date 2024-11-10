@@ -1,5 +1,5 @@
-name: 🔗 GHA
-on: [push, pull_request, merge_group]
+name: 🔗 测试链
+on: [push, pull_request, merge_group, workflow_dispatch]
 
 concurrency:
   group: ci-${{ github.actor }}-${{ github.head_ref || github.run_number }}-${{ github.ref }}-runner
